@@ -8,8 +8,8 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @EnableEurekaClient
 @MapperScan("site.azhe.otoken.service.admin.mapper")
-public class ServiceApplication {
+public class ServiceAdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ServiceApplication.class, args);
+        SpringApplication.run(ServiceAdminApplication.class, args);
     }
 }

@@ -37,7 +37,7 @@
                 type="XMLMAPPER"/>
 
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table catalog="otoken-service-admin" tableName="tb_sys_user">
+        <table tableName="tb_sys_user">
             <!-- mysql 配置 -->
             <generatedKey column="user_code" sqlStatement="Mysql" identity="false"/>
         </table>

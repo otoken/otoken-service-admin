@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 import javax.persistence.*;
 
-@Table(name = "otoken-service-admin..tb_sys_user")
+@Table(name = "tb_sys_user")
 public class TbSysUser {
     /**
      * 用户编码
